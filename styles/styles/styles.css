@@ -1,0 +1,209 @@
+@font-face {
+  font-family: Semi-Bold;
+  src: url('../../assets/font/Inter-SemiBold.otf');
+}
+
+@font-face {
+  font-family: Regular;
+  src: url('../../assets/font/Inter-Regular.otf');
+}
+
+* {
+  box-sizing: border-box;
+  font-family: Semi-Bold;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #ff9a5c;
+  height: 100%;
+  padding: 50px 0 42px;
+}
+
+button {
+  background: none;
+  border: none;
+  padding: 0;
+}
+
+.container {
+  background-color: #ffe8d0;
+  border: 4px solid black;
+  border-radius: 44px;
+  background-image: url('/assets/img/pattern.png');
+  background-repeat: repeat;
+  width: 960px;
+  margin: 0 auto;
+  padding: 32px;
+}
+
+/* NAVIGATION */
+
+.rectangle-home {
+  background-color: #fe8649;
+  border: 2px solid black;
+  margin-bottom: 26px;
+  padding: 0 54px;
+}
+
+.home-nav-btn {
+  text-align: left;
+  font-size: 32px;
+  background-color: white;
+  border-radius: 67px;
+  border: 2px solid black;
+  padding: 8px 32px;
+  width: 100%;
+}
+
+.home-nav-btn a {
+  text-decoration: none;
+  font-family: Regular;
+}
+
+.nav {
+  background-color: #fff;
+  border: 2px solid black;
+  padding: 14px 0;
+}
+
+.nav-list {
+  list-style-type: none;
+  font-size: 24px;
+  display: flex;
+  gap: 109px;
+  justify-content: center;
+}
+
+.nav-item:hover {
+  color: #fe8649;
+}
+
+.nav-item {
+  text-decoration: none;
+  color: black;
+  transition: color 0.1s linear;
+}
+
+.nav-item.active {
+  color: #fe8649;
+}
+
+.page {
+  display: none;
+}
+
+.page.active {
+  display: block;
+}
+
+/* HOME */
+.main-login {
+  display: block;
+  margin: 0 auto;
+}
+
+.main-img-item-book {
+  margin: 0 auto;
+  display: block;
+}
+
+.main-img-items {
+  margin-top: 80px;
+  display: flex;
+  gap: 72px;
+  justify-content: center;
+}
+
+.main-item {
+  position: relative;
+}
+
+.main-button {
+  position: absolute;
+  top: 48%;
+  left: 34%;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.main-button2 {
+  left: 30%;
+}
+
+/* BOOK */
+.slider {
+  align-items: center;
+  justify-content: space-around;
+  display: flex;
+}
+
+.slides {
+  display: flex;
+}
+
+.book-page-img {
+  margin: 108px auto;
+  display: block;
+  border: 20px solid #262a30;
+  border-radius: 30px;
+}
+
+.button {
+  cursor: pointer;
+}
+
+.button.prev {
+  left: 10px;
+}
+
+.button.next {
+  right: 10px;
+}
+
+button:hover {
+  cursor: pointer;
+  animation: pulse 1s infinite;
+}
+
+/* EVENTS */
+
+.events-event-img {
+  border: 13px solid;
+  border-radius: 30px;
+}
+
+.events-items {
+  justify-content: center;
+  margin-top: 70px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 36px;
+}
+
+/* SHOP */
+
+.shop-items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3px;
+}
+
+.shop-cards-2 {
+  margin-top: 30px;
+}
+
+.shop-card-img-0 {
+  margin-left: -15px;
+}
+
+.shop-card-img-1 {
+  margin-left: 50px;
+}
+
+.shop-card-img-2 {
+  margin-top: 90px;
+}
+
+/* GAME */

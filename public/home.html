@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles/styles/styles.css" />
+    <link rel="stylesheet" href="../styles/styles/style.css" />
+    <title>PaintEat</title>
+  </head>
+  <body>
+    <div class="container">
+      <header id="nav-items" class="header">
+        <nav class="navigation">
+          <div class="rectangle-home">
+            <button class="home-nav-btn">
+              <a href="#" data-page="home" class="nav-item">Home</a>
+            </button>
+          </div>
+          <div class="nav">
+            <ul class="nav-list">
+              <li><a href="#" data-page="book" class="nav-item">BOOK</a></li>
+              <li><a href="#" data-page="events" class="nav-item">EVENTS</a></li>
+              <li><a href="#" data-page="shop" class="nav-item">SHOP</a></li>
+              <li><a href="#" data-page="game" class="nav-item">GAME</a></li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+      <main class="content" id="content">
+        <!-- HOME -->
+        <div id="home" class="page">
+          <div>
+            <button class="main-login">
+              <a href="#" data-page="book" class="nav-item"
+                ><img
+                  class="main-img-item-book"
+                  src="/assets/img/login.png"
+                  alt="login"
+                  class="main-img-login"
+              /></a>
+            </button>
+          </div>
+          <div class="main-img-items">
+            <div class="main-item">
+              <img src="/assets/img/Shop.png" alt="shop" class="main-img-shop" />
+              <button class="main-button">
+                <a href="#" data-page="shop" class="nav-item">SHOP</a>
+              </button>
+            </div>
+            <div class="main-item">
+              <img src="/assets/img/Game.png" alt="game" class="main-img-game" />
+              <button class="main-button">
+                <a href="#" data-page="game" class="nav-item">GAME</a>
+              </button>
+            </div>
+            <div class="main-item">
+              <img src="/assets/img/Events.png" alt="events" class="main-img-events" />
+              <button class="main-button main-button2">
+                <a href="#" data-page="events" class="nav-item">EVENTS</a>
+              </button>
+            </div>
+          </div>
+        </div>
+        <!-- BOOK -->
+        <div id="book" class="page">
+          <div class="slider">
+            <button class="slider-left-arrow">
+              <img src="/assets/img/ArrowLeft.png" alt="arrow" class="prev book-arrowLeft-img" />
+            </button>
+            <div class="slides-wrapper">
+              <div class="slides">
+                <img src="/assets/img/Page1.png" alt="page" class="book-page-img" />
+                <img src="/assets/img/Page2.png" alt="page" class="book-page-img" />
+                <img src="/assets/img/Page3.png" alt="page" class="book-page-img" />
+                <img src="/assets/img/Page4.png" alt="page" class="book-page-img" />
+                <img src="/assets/img/Page5.png" alt="page" class="book-page-img" />
+                <img src="/assets/img/Page6.png" alt="page" class="book-page-img" />
+                <img src="/assets/img/Page7.png" alt="page" class="book-page-img" />
+              </div>
+            </div>
+
+            <button class="slider-right-arrow">
+              <img src="/assets/img/ArrowRight.png" class="next book-arrowRight-img" alt="arrow" />
+            </button>
+          </div>
+        </div>
+        <!-- EVENTS -->
+        <div id="events" class="page">
+          <div class="events-items">
+            <div>
+              <img src="/assets/img/Event1.png" alt="event" class="events-event-img" />
+            </div>
+            <div>
+              <img src="/assets/img/Event2.png" alt="event" class="events-event-img" />
+            </div>
+            <div>
+              <img src="/assets/img/Event3.png" alt="event" class="events-event-img" />
+            </div>
+            <div>
+              <img src="/assets/img/Event4.png" alt="event" class="events-event-img" />
+            </div>
+            <div>
+              <img src="/assets/img/Event5.png" alt="event" class="events-event-img" />
+            </div>
+            <div>
+              <img src="/assets/img/Event6.png" alt="event" class="events-event-img" />
+            </div>
+          </div>
+        </div>
+        <!-- SHOP -->
+        <div id="shop" class="page">
+          <div class="shop-items">
+            <div>
+              <div>
+                <img src="/assets/img/card1.png" alt="card" class="shop-card-img" />
+              </div>
+              <div>
+                <img src="/assets/img/card2.png" alt="card" class="shop-card-img-0" />
+              </div>
+              <div>
+                <img src="/assets/img/card3.png" alt="card" class="shop-card-img-1" />
+              </div>
+            </div>
+            <div>
+              <div class="shop-cards-2">
+                <img src="/assets/img/card4.png" alt="card" class="shop-card-img-2" />
+              </div>
+              <div>
+                <img src="/assets/img/card5.png" alt="card" class="shop-card-img-2" />
+              </div>
+              <div>
+                <img src="/assets/img/card6.png" alt="card" class="shop-card-img-2" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- GAME -->
+        <div id="game" class="page">
+          <div class="container-game">
+            <main class="main">
+              <div class="main__creatFood--block">
+                <div class="main__header">
+                  <div class="main__header--blocks">
+                    <div class="main__header--circles">
+                      <div class="main__header--circle"></div>
+                      <div class="main__header--circle"></div>
+                      <div class="main__header--circle"></div>
+                      <div class="main__header--arrow">
+                        <img src="../assets/img/backgroundHeader/arrow.svg" alt="Arrow" />
+                      </div>
+                    </div>
+
+                    <div class="main__header--bigCircle"></div>
+                  </div>
+                </div>
+
+                <div class="main__content">
+                  <div class="main__content--snacks">
+                    <div class="main__content--snackHight"></div>
+                    <div class="main__content--snackMiddle"></div>
+                    <div class="main__content--snackLower"></div>
+                  </div>
+
+                  <div class="main__content--plate"></div>
+
+                  <div class="main__content--cutlery">
+                    <div class="main__content--knife"></div>
+                    <div class="main__content--fork"></div>
+                  </div>
+                </div>
+
+                <div class="main-footer__buttons">
+                  <button class="main-footer__button--generate">Generate</button>
+                  <button class="main-footer__button--save">Reset</button>
+                </div>
+
+                <div class="main__content-left-modal hidden">
+                  <ul class="main__content-snacks"></ul>
+                </div>
+
+                <div class="main__content-right-modal hidden">
+                  <ul class="main__content-dishes"></ul>
+                </div>
+              </div>
+            </main>
+          </div>
+        </div>
+      </main>
+    </div>
+    <script type="module" src="scripts/main.js"></script>
+    <script src="scripts/javascript.js"></script>
+  </body>
+</html>
