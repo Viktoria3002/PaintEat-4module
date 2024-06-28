@@ -1,6 +1,6 @@
 @font-face {
   font-family: JUA-REGULAR;
-  src: url(../../assets/font/JUA-REGULAR.TTF);
+  src: url(../assets/font/JUA-REGULAR.TTF);
 }
 
 * {
@@ -294,13 +294,13 @@ ul {
 
 .main-footer__button--generate {
   background-size: contain;
-  background-image: url('../../assets/img/buttons/Generate.svg');
+  background-image: url('../assets/img/buttons/Generate.svg');
   color: #00182c;
 }
 
 .main-footer__button--save {
   background-size: contain;
-  background-image: url('../../assets/img/buttons/Save.svg');
+  background-image: url('../assets/img/buttons/Save.svg');
   color: #ff7f4b;
 }
 
