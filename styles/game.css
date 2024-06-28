@@ -1,7 +1,4 @@
-@font-face {
-  font-family: JUA-REGULAR;
-  src: url(../assets/font/JUA-REGULAR.TTF);
-}
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Jua&display=swap');
 
 * {
   box-sizing: border-box;
@@ -283,7 +280,7 @@ ul {
 
 .main-footer__button--generate,
 .main-footer__button--save {
-  font-family: JUA-REGULAR;
+  font-family: 'Jua', sans-serif;
   width: 468px;
   height: 100px;
   font-size: 24px;

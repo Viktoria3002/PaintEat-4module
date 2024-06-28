@@ -1,16 +1,10 @@
-@font-face {
-  font-family: Semi-Bold;
-  src: url('../assets/font/Inter-SemiBold.otf');
-}
-
-@font-face {
-  font-family: Regular;
-  src: url('../assets/font/Inter-Regular.otf');
-}
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Jua&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Jua&display=swap');
 
 * {
   box-sizing: border-box;
-  font-family: Semi-Bold;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
   margin: 0;
   padding: 0;
 }
@@ -59,7 +53,8 @@ button {
 
 .home-nav-btn a {
   text-decoration: none;
-  font-family: Regular;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
 }
 
 .nav {
